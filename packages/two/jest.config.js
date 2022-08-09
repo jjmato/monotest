@@ -1,9 +1,5 @@
-// Sync object
-/** @type {import('@jest/types').Config.InitialOptions} */
-const configuration = {
-  verbose: true,
-
+/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
+export default {
   preset: 'ts-jest',
-}
-
-export default configuration;
+  testEnvironment: 'node',
+};
