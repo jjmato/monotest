@@ -1,0 +1,11 @@
+{
+  "name": "monotest",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "lerna": "^5.4.0"
+  }
+}
